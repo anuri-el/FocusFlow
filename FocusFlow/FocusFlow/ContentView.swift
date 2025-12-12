@@ -1,21 +1,8 @@
-//
-//  ContentView.swift
-//  FocusFlow
-//
-//  Created by Sofiia Poteichuk on 12.12.2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TaskListView()
     }
 }
 
