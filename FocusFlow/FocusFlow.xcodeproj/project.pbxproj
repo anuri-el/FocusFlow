@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DBD02FE2EECBBA400358681 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FD2EECBBA400358681 /* Task.swift */; };
+		4DBD03002EECBBC700358681 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FF2EECBBC700358681 /* Category.swift */; };
+		4DBD03022EECBBD800358681 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD03012EECBBD800358681 /* Note.swift */; };
+		4DBD03042EECBBF600358681 /* PomodoroSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD03032EECBBF600358681 /* PomodoroSession.swift */; };
+		4DBD03062EECC12500358681 /* TaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD03052EECC12500358681 /* TaskCategory.swift */; };
+		4DBD030C2EECC1F800358681 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD030B2EECC1F800358681 /* TaskViewModel.swift */; };
 		4DC057472EECB6D40042ACB2 /* FocusFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC057462EECB6D40042ACB2 /* FocusFlowApp.swift */; };
 		4DC057492EECB6D40042ACB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC057482EECB6D40042ACB2 /* ContentView.swift */; };
 		4DC0574B2EECB6D50042ACB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0574A2EECB6D50042ACB2 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DBD02FD2EECBBA400358681 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		4DBD02FF2EECBBC700358681 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4DBD03012EECBBD800358681 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		4DBD03032EECBBF600358681 /* PomodoroSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroSession.swift; sourceTree = "<group>"; };
+		4DBD03052EECC12500358681 /* TaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategory.swift; sourceTree = "<group>"; };
+		4DBD030B2EECC1F800358681 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 		4DC057432EECB6D40042ACB2 /* FocusFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC057462EECB6D40042ACB2 /* FocusFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusFlowApp.swift; sourceTree = "<group>"; };
 		4DC057482EECB6D40042ACB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DBD02FC2EECBB3000358681 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD02FD2EECBBA400358681 /* Task.swift */,
+				4DBD02FF2EECBBC700358681 /* Category.swift */,
+				4DBD03012EECBBD800358681 /* Note.swift */,
+				4DBD03032EECBBF600358681 /* PomodoroSession.swift */,
+				4DBD03052EECC12500358681 /* TaskCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DBD03092EECC1C300358681 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD030B2EECC1F800358681 /* TaskViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4DBD030A2EECC1CD00358681 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4DC0573A2EECB6D40042ACB2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +133,9 @@
 		4DC057452EECB6D40042ACB2 /* FocusFlow */ = {
 			isa = PBXGroup;
 			children = (
+				4DBD030A2EECC1CD00358681 /* Views */,
+				4DBD03092EECC1C300358681 /* ViewModels */,
+				4DBD02FC2EECBB3000358681 /* Models */,
 				4DC057462EECB6D40042ACB2 /* FocusFlowApp.swift */,
 				4DC057482EECB6D40042ACB2 /* ContentView.swift */,
 				4DC0574A2EECB6D50042ACB2 /* Assets.xcassets */,
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD03022EECBBD800358681 /* Note.swift in Sources */,
+				4DBD03042EECBBF600358681 /* PomodoroSession.swift in Sources */,
+				4DBD03062EECC12500358681 /* TaskCategory.swift in Sources */,
 				4DC057492EECB6D40042ACB2 /* ContentView.swift in Sources */,
+				4DBD02FE2EECBBA400358681 /* Task.swift in Sources */,
+				4DBD030C2EECC1F800358681 /* TaskViewModel.swift in Sources */,
 				4DC057472EECB6D40042ACB2 /* FocusFlowApp.swift in Sources */,
+				4DBD03002EECBBC700358681 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
