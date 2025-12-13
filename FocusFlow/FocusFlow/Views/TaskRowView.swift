@@ -4,6 +4,7 @@ struct TaskRowView: View {
     let task: Task
     let onToggle: () -> Void
     let onDelete: () -> Void
+    let onEdit: () -> Void
     
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -53,12 +54,23 @@ struct TaskRowView: View {
             Spacer()
         }
         .padding(.vertical, 4)
-        .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+        .contentShape(Rectangle())
+        .onTapGesture {
+            onEdit()
+        }
+        .swipeActions(edge: .trailing, allowsFullSwipe: false) {
             Button(role: .destructive) {
                 onDelete()
             } label: {
                 Label("Видалити", systemImage: "trash")
             }
+            
+            Button {
+                onEdit()
+            } label: {
+                Label("Редагувати", systemImage: "pencil")
+            }
+            .tint(.blue)
         }
     }
 }

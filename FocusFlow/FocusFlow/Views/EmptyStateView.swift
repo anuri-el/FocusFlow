@@ -11,7 +11,7 @@ struct EmptyStateView: View {
                 .font(.title2)
                 .fontWeight(.semibold)
             
-            Text("Додайте перше завдання, натиснувши +")
+            Text("Додайте перше завдання, натиснувши меню")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)

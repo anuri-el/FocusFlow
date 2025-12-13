@@ -3,8 +3,10 @@ import SwiftUI
 struct TaskListView: View {
     @StateObject private var viewModel = TaskViewModel()
     @State private var showingAddTask = false
+    @State private var showingCategories = false
     @State private var selectedCategory: TaskCategory? = nil
     @State private var showCompletedTasks = false
+    @State private var taskToEdit: Task? = nil
     
     var body: some View {
         NavigationView {
@@ -27,7 +29,8 @@ struct TaskListView: View {
                                     TaskRowView(
                                         task: task,
                                         onToggle: { viewModel.toggleTaskCompletion(task) },
-                                        onDelete: { viewModel.deleteTask(task) }
+                                        onDelete: { viewModel.deleteTask(task) },
+                                        onEdit: { taskToEdit = task }
                                     )
                                 }
                             }
@@ -40,7 +43,8 @@ struct TaskListView: View {
                                     TaskRowView(
                                         task: task,
                                         onToggle: { viewModel.toggleTaskCompletion(task) },
-                                        onDelete: { viewModel.deleteTask(task) }
+                                        onDelete: { viewModel.deleteTask(task) },
+                                        onEdit: { taskToEdit = task }
                                     )
                                     .opacity(0.6)
                                 }
@@ -55,10 +59,20 @@ struct TaskListView: View {
             .navigationTitle("Завдання")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        showingAddTask = true
+                    Menu {
+                        Button {
+                            showingAddTask = true
+                        } label: {
+                            Label("Нове завдання", systemImage: "plus.circle")
+                        }
+                        
+                        Button {
+                            showingCategories = true
+                        } label: {
+                            Label("Категорії", systemImage: "folder")
+                        }
                     } label: {
-                        Image(systemName: "plus.circle.fill")
+                        Image(systemName: "ellipsis.circle")
                             .font(.title2)
                     }
                 }
@@ -73,6 +87,12 @@ struct TaskListView: View {
             }
             .sheet(isPresented: $showingAddTask) {
                 AddTaskView(viewModel: viewModel)
+            }
+            .sheet(item: $taskToEdit) { task in
+                EditTaskView(viewModel: viewModel, task: task)
+            }
+            .sheet(isPresented: $showingCategories) {
+//                CategoryManagementView(viewModel: viewModel)
             }
         }
     }

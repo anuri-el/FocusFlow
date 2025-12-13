@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DBADA402EECD50E000C656B /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBADA3F2EECD50E000C656B /* EditTaskView.swift */; };
 		4DBD02FE2EECBBA400358681 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FD2EECBBA400358681 /* Task.swift */; };
 		4DBD03002EECBBC700358681 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FF2EECBBC700358681 /* Category.swift */; };
 		4DBD03022EECBBD800358681 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD03012EECBBD800358681 /* Note.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DBADA3F2EECD50E000C656B /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		4DBD02FD2EECBBA400358681 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4DBD02FF2EECBBC700358681 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4DBD03012EECBBD800358681 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				4DBD03152EECC45B00358681 /* EmptyStateView.swift */,
 				4DBD03172EECC49900358681 /* AddTaskView.swift */,
 				4DBD03192EECC4FD00358681 /* CategoryButton.swift */,
+				4DBADA3F2EECD50E000C656B /* EditTaskView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBD03022EECBBD800358681 /* Note.swift in Sources */,
+				4DBADA402EECD50E000C656B /* EditTaskView.swift in Sources */,
 				4DBD03182EECC49900358681 /* AddTaskView.swift in Sources */,
 				4DBD03042EECBBF600358681 /* PomodoroSession.swift in Sources */,
 				4DBD03102EECC38D00358681 /* CategoryFilterView.swift in Sources */,
