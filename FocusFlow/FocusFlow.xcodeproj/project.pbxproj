@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8F1A022EEE1255000B36CF /* PomodoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */; };
 		4DBADA402EECD50E000C656B /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBADA3F2EECD50E000C656B /* EditTaskView.swift */; };
 		4DBD02FE2EECBBA400358681 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FD2EECBBA400358681 /* Task.swift */; };
 		4DBD03002EECBBC700358681 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FF2EECBBC700358681 /* Category.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewModel.swift; sourceTree = "<group>"; };
 		4DBADA3F2EECD50E000C656B /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		4DBD02FD2EECBBA400358681 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4DBD02FF2EECBBC700358681 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				4DBD030B2EECC1F800358681 /* TaskViewModel.swift */,
+				4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				4DBD47B12EEDCE9D00652DCD /* CategoryManagementView.swift in Sources */,
 				4DBD03042EECBBF600358681 /* PomodoroSession.swift in Sources */,
 				4DBD47B52EEDCF2A00652DCD /* AddCategoryView.swift in Sources */,
+				4D8F1A022EEE1255000B36CF /* PomodoroViewModel.swift in Sources */,
 				4DBD03102EECC38D00358681 /* CategoryFilterView.swift in Sources */,
 				4DBD030E2EECC33000358681 /* TaskListView.swift in Sources */,
 				4DBD47BB2EEDD08B00652DCD /* IconButton.swift in Sources */,
