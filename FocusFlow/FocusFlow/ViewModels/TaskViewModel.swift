@@ -8,7 +8,6 @@ class TaskViewModel: ObservableObject {
     init() {
         loadData()
     }
-    
     // MARK: - Завдання
     
     func addTask(title: String, description: String, category: TaskCategory, deadline: Date?) {
@@ -47,6 +46,21 @@ class TaskViewModel: ObservableObject {
         let newCategory = TaskCategory(name: name, color: color, icon: icon)
         categories.append(newCategory)
         saveData()
+    }
+    
+    func updateCategory(_ category: TaskCategory) {
+        if let index = categories.firstIndex(where: { $0.id == category.id }) {
+            categories[index] = category
+            
+            // Оновлюємо категорію в усіх завданнях
+            for i in 0..<tasks.count {
+                if tasks[i].category.id == category.id {
+                    tasks[i].category = category
+                }
+            }
+            
+            saveData()
+        }
     }
     
     func deleteCategory(_ category: TaskCategory) {

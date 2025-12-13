@@ -92,7 +92,7 @@ struct TaskListView: View {
                 EditTaskView(viewModel: viewModel, task: task)
             }
             .sheet(isPresented: $showingCategories) {
-//                CategoryManagementView(viewModel: viewModel)
+                CategoryManagementView(viewModel: viewModel)
             }
         }
     }
