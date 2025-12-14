@@ -12,6 +12,12 @@
 		4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */; };
 		4D9B70D82EEEE3CE00ED4280 /* NoteFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70D72EEEE3CE00ED4280 /* NoteFolder.swift */; };
 		4D9B70DA2EEEE68C00ED4280 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70D92EEEE68C00ED4280 /* NoteViewModel.swift */; };
+		4D9B70DC2EEEF4EA00ED4280 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70DB2EEEF4EA00ED4280 /* NotesView.swift */; };
+		4D9B70DE2EEEF53B00ED4280 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70DD2EEEF53B00ED4280 /* SearchBar.swift */; };
+		4D9B70E02EEEF56000ED4280 /* FolderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70DF2EEEF56000ED4280 /* FolderScrollView.swift */; };
+		4D9B70E22EEEF59100ED4280 /* FolderChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70E12EEEF59100ED4280 /* FolderChip.swift */; };
+		4D9B70E42EEEF5D600ED4280 /* NoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70E32EEEF5D600ED4280 /* NoteRowView.swift */; };
+		4D9B70E62EEEF60300ED4280 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70E52EEEF60300ED4280 /* File.swift */; };
 		4DBADA402EECD50E000C656B /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBADA3F2EECD50E000C656B /* EditTaskView.swift */; };
 		4DBD02FE2EECBBA400358681 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FD2EECBBA400358681 /* Task.swift */; };
 		4DBD03002EECBBC700358681 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FF2EECBBC700358681 /* Category.swift */; };
@@ -64,6 +70,12 @@
 		4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroSettingsView.swift; sourceTree = "<group>"; };
 		4D9B70D72EEEE3CE00ED4280 /* NoteFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFolder.swift; sourceTree = "<group>"; };
 		4D9B70D92EEEE68C00ED4280 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		4D9B70DB2EEEF4EA00ED4280 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		4D9B70DD2EEEF53B00ED4280 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		4D9B70DF2EEEF56000ED4280 /* FolderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScrollView.swift; sourceTree = "<group>"; };
+		4D9B70E12EEEF59100ED4280 /* FolderChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderChip.swift; sourceTree = "<group>"; };
+		4D9B70E32EEEF5D600ED4280 /* NoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRowView.swift; sourceTree = "<group>"; };
+		4D9B70E52EEEF60300ED4280 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		4DBADA3F2EECD50E000C656B /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		4DBD02FD2EECBBA400358681 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4DBD02FF2EECBBC700358681 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -163,6 +175,12 @@
 				4DBD030D2EECC33000358681 /* TaskListView.swift */,
 				4DBD03132EECC41600358681 /* TaskRowView.swift */,
 				4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */,
+				4D9B70DB2EEEF4EA00ED4280 /* NotesView.swift */,
+				4D9B70DD2EEEF53B00ED4280 /* SearchBar.swift */,
+				4D9B70DF2EEEF56000ED4280 /* FolderScrollView.swift */,
+				4D9B70E12EEEF59100ED4280 /* FolderChip.swift */,
+				4D9B70E32EEEF5D600ED4280 /* NoteRowView.swift */,
+				4D9B70E52EEEF60300ED4280 /* File.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -369,10 +387,15 @@
 				4DBD03062EECC12500358681 /* TaskCategory.swift in Sources */,
 				4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */,
 				4DBD031A2EECC4FD00358681 /* CategoryButton.swift in Sources */,
+				4D9B70E22EEEF59100ED4280 /* FolderChip.swift in Sources */,
 				4DBD03162EECC45B00358681 /* EmptyStateView.swift in Sources */,
+				4D9B70DC2EEEF4EA00ED4280 /* NotesView.swift in Sources */,
 				4DC057492EECB6D40042ACB2 /* ContentView.swift in Sources */,
 				4DBD02FE2EECBBA400358681 /* Task.swift in Sources */,
 				4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */,
+				4D9B70DE2EEEF53B00ED4280 /* SearchBar.swift in Sources */,
+				4D9B70E02EEEF56000ED4280 /* FolderScrollView.swift in Sources */,
+				4D9B70E42EEEF5D600ED4280 /* NoteRowView.swift in Sources */,
 				4DBD03122EECC3D200358681 /* CategoryChip.swift in Sources */,
 				4DBD47B92EEDD03E00652DCD /* ColorCircle.swift in Sources */,
 				4DBD030C2EECC1F800358681 /* TaskViewModel.swift in Sources */,
@@ -382,6 +405,7 @@
 				4DBD47B72EEDCF9B00652DCD /* EditCategoryView.swift in Sources */,
 				4DBD03142EECC41600358681 /* TaskRowView.swift in Sources */,
 				4DBD03002EECBBC700358681 /* Category.swift in Sources */,
+				4D9B70E62EEEF60300ED4280 /* File.swift in Sources */,
 				4DBD47B32EEDCEE900652DCD /* CategoryManagementRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

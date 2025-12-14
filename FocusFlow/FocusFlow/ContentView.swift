@@ -1,8 +1,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 0
+    
     var body: some View {
-        TaskListView()
+        TabView(selection: $selectedTab) {
+            // Завдання
+            TaskListView()
+                .tabItem {
+                    Label("Завдання", systemImage: "checklist")
+                }
+                .tag(0)
+            
+            // Нотатки
+            NotesView()
+                .tabItem {
+                    Label("Нотатки", systemImage: "note.text")
+                }
+                .tag(1)
+            
+            // Аналітика (поки що заглушка)
+            Text("Аналітика")
+                .tabItem {
+                    Label("Аналітика", systemImage: "chart.bar")
+                }
+                .tag(2)
+        }
     }
 }
 
