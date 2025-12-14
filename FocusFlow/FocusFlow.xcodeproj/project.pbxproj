@@ -10,6 +10,10 @@
 		4D7358ED2EEF287100FD6FBC /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7358EC2EEF287100FD6FBC /* AddNoteView.swift */; };
 		4D7358EF2EEF28B300FD6FBC /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7358EE2EEF28B300FD6FBC /* TagView.swift */; };
 		4D7358F12EEF291000FD6FBC /* EditNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7358F02EEF291000FD6FBC /* EditNoteView.swift */; };
+		4D7358F32EEF2AF100FD6FBC /* NoteFolderManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7358F22EEF2AF100FD6FBC /* NoteFolderManagementView.swift */; };
+		4D7358F52EEF2B1F00FD6FBC /* NoteFolderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7358F42EEF2B1F00FD6FBC /* NoteFolderRow.swift */; };
+		4D7358F72EEF2B6C00FD6FBC /* AddNoteFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7358F62EEF2B6C00FD6FBC /* AddNoteFolderView.swift */; };
+		4D7358F92EEF2BAA00FD6FBC /* EditNoteFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7358F82EEF2BAA00FD6FBC /* EditNoteFolderView.swift */; };
 		4D8F1A022EEE1255000B36CF /* PomodoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */; };
 		4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A032EEE172B000B36CF /* PomodoroView.swift */; };
 		4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */; };
@@ -71,6 +75,10 @@
 		4D7358EC2EEF287100FD6FBC /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 		4D7358EE2EEF28B300FD6FBC /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		4D7358F02EEF291000FD6FBC /* EditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteView.swift; sourceTree = "<group>"; };
+		4D7358F22EEF2AF100FD6FBC /* NoteFolderManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFolderManagementView.swift; sourceTree = "<group>"; };
+		4D7358F42EEF2B1F00FD6FBC /* NoteFolderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFolderRow.swift; sourceTree = "<group>"; };
+		4D7358F62EEF2B6C00FD6FBC /* AddNoteFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteFolderView.swift; sourceTree = "<group>"; };
+		4D7358F82EEF2BAA00FD6FBC /* EditNoteFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteFolderView.swift; sourceTree = "<group>"; };
 		4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewModel.swift; sourceTree = "<group>"; };
 		4D8F1A032EEE172B000B36CF /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
 		4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroSettingsView.swift; sourceTree = "<group>"; };
@@ -190,6 +198,10 @@
 				4D7358EC2EEF287100FD6FBC /* AddNoteView.swift */,
 				4D7358EE2EEF28B300FD6FBC /* TagView.swift */,
 				4D7358F02EEF291000FD6FBC /* EditNoteView.swift */,
+				4D7358F22EEF2AF100FD6FBC /* NoteFolderManagementView.swift */,
+				4D7358F42EEF2B1F00FD6FBC /* NoteFolderRow.swift */,
+				4D7358F62EEF2B6C00FD6FBC /* AddNoteFolderView.swift */,
+				4D7358F82EEF2BAA00FD6FBC /* EditNoteFolderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -389,6 +401,7 @@
 				4DBD47B12EEDCE9D00652DCD /* CategoryManagementView.swift in Sources */,
 				4D7358ED2EEF287100FD6FBC /* AddNoteView.swift in Sources */,
 				4DBD03042EECBBF600358681 /* PomodoroSession.swift in Sources */,
+				4D7358F92EEF2BAA00FD6FBC /* EditNoteFolderView.swift in Sources */,
 				4DBD47B52EEDCF2A00652DCD /* AddCategoryView.swift in Sources */,
 				4D8F1A022EEE1255000B36CF /* PomodoroViewModel.swift in Sources */,
 				4DBD03102EECC38D00358681 /* CategoryFilterView.swift in Sources */,
@@ -401,14 +414,17 @@
 				4D9B70E22EEEF59100ED4280 /* FolderChip.swift in Sources */,
 				4DBD03162EECC45B00358681 /* EmptyStateView.swift in Sources */,
 				4D9B70DC2EEEF4EA00ED4280 /* NotesView.swift in Sources */,
+				4D7358F52EEF2B1F00FD6FBC /* NoteFolderRow.swift in Sources */,
 				4DC057492EECB6D40042ACB2 /* ContentView.swift in Sources */,
 				4DBD02FE2EECBBA400358681 /* Task.swift in Sources */,
 				4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */,
+				4D7358F32EEF2AF100FD6FBC /* NoteFolderManagementView.swift in Sources */,
 				4D9B70DE2EEEF53B00ED4280 /* SearchBar.swift in Sources */,
 				4D9B70E02EEEF56000ED4280 /* FolderScrollView.swift in Sources */,
 				4D9B70E42EEEF5D600ED4280 /* NoteRowView.swift in Sources */,
 				4DBD03122EECC3D200358681 /* CategoryChip.swift in Sources */,
 				4DBD47B92EEDD03E00652DCD /* ColorCircle.swift in Sources */,
+				4D7358F72EEF2B6C00FD6FBC /* AddNoteFolderView.swift in Sources */,
 				4DBD030C2EECC1F800358681 /* TaskViewModel.swift in Sources */,
 				4D9B70DA2EEEE68C00ED4280 /* NoteViewModel.swift in Sources */,
 				4D7358F12EEF291000FD6FBC /* EditNoteView.swift in Sources */,

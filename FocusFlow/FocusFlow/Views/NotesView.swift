@@ -71,7 +71,7 @@ struct NotesView: View {
                 EditNoteView(viewModel: viewModel, note: note)
             }
             .sheet(isPresented: $showingFolders) {
-//                FolderManagementView(viewModel: viewModel)
+                NoteFolderManagementView(viewModel: viewModel)
             }
         }
     }
