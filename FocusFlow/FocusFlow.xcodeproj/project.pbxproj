@@ -11,6 +11,7 @@
 		4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A032EEE172B000B36CF /* PomodoroView.swift */; };
 		4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */; };
 		4D9B70D82EEEE3CE00ED4280 /* NoteFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70D72EEEE3CE00ED4280 /* NoteFolder.swift */; };
+		4D9B70DA2EEEE68C00ED4280 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70D92EEEE68C00ED4280 /* NoteViewModel.swift */; };
 		4DBADA402EECD50E000C656B /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBADA3F2EECD50E000C656B /* EditTaskView.swift */; };
 		4DBD02FE2EECBBA400358681 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FD2EECBBA400358681 /* Task.swift */; };
 		4DBD03002EECBBC700358681 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FF2EECBBC700358681 /* Category.swift */; };
@@ -62,6 +63,7 @@
 		4D8F1A032EEE172B000B36CF /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
 		4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroSettingsView.swift; sourceTree = "<group>"; };
 		4D9B70D72EEEE3CE00ED4280 /* NoteFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFolder.swift; sourceTree = "<group>"; };
+		4D9B70D92EEEE68C00ED4280 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		4DBADA3F2EECD50E000C656B /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		4DBD02FD2EECBBA400358681 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4DBD02FF2EECBBC700358681 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */,
 				4DBD030B2EECC1F800358681 /* TaskViewModel.swift */,
+				4D9B70D92EEEE68C00ED4280 /* NoteViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				4DBD03122EECC3D200358681 /* CategoryChip.swift in Sources */,
 				4DBD47B92EEDD03E00652DCD /* ColorCircle.swift in Sources */,
 				4DBD030C2EECC1F800358681 /* TaskViewModel.swift in Sources */,
+				4D9B70DA2EEEE68C00ED4280 /* NoteViewModel.swift in Sources */,
 				4DC057472EECB6D40042ACB2 /* FocusFlowApp.swift in Sources */,
 				4D9B70D82EEEE3CE00ED4280 /* NoteFolder.swift in Sources */,
 				4DBD47B72EEDCF9B00652DCD /* EditCategoryView.swift in Sources */,
