@@ -5,6 +5,7 @@ struct TaskRowView: View {
     let onToggle: () -> Void
     let onDelete: () -> Void
     let onEdit: () -> Void
+    let onStart: () -> Void
     
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -52,6 +53,16 @@ struct TaskRowView: View {
             }
             
             Spacer()
+            
+            // Кнопка Start (тільки для не виконаних)
+            if !task.isCompleted {
+                Button(action: onStart) {
+                    Image(systemName: "play.circle.fill")
+                        .font(.title)
+                        .foregroundColor(.blue)
+                }
+                .buttonStyle(.plain)
+            }
         }
         .padding(.vertical, 4)
         .contentShape(Rectangle())

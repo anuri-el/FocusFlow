@@ -7,6 +7,7 @@ struct TaskListView: View {
     @State private var selectedCategory: TaskCategory? = nil
     @State private var showCompletedTasks = false
     @State private var taskToEdit: Task? = nil
+    @State private var taskToStart: Task? = nil
     
     var body: some View {
         NavigationView {
@@ -30,7 +31,8 @@ struct TaskListView: View {
                                         task: task,
                                         onToggle: { viewModel.toggleTaskCompletion(task) },
                                         onDelete: { viewModel.deleteTask(task) },
-                                        onEdit: { taskToEdit = task }
+                                        onEdit: { taskToEdit = task },
+                                        onStart: { taskToStart = task }
                                     )
                                 }
                             }
@@ -44,7 +46,8 @@ struct TaskListView: View {
                                         task: task,
                                         onToggle: { viewModel.toggleTaskCompletion(task) },
                                         onDelete: { viewModel.deleteTask(task) },
-                                        onEdit: { taskToEdit = task }
+                                        onEdit: { taskToEdit = task },
+                                        onStart: { taskToStart = task }
                                     )
                                     .opacity(0.6)
                                 }
@@ -93,6 +96,9 @@ struct TaskListView: View {
             }
             .sheet(isPresented: $showingCategories) {
                 CategoryManagementView(viewModel: viewModel)
+            }
+            .fullScreenCover(item: $taskToStart) { task in
+                PomodoroView(taskViewModel: viewModel, task: task)
             }
         }
     }

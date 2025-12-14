@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D8F1A022EEE1255000B36CF /* PomodoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */; };
+		4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A032EEE172B000B36CF /* PomodoroView.swift */; };
+		4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */; };
 		4DBADA402EECD50E000C656B /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBADA3F2EECD50E000C656B /* EditTaskView.swift */; };
 		4DBD02FE2EECBBA400358681 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FD2EECBBA400358681 /* Task.swift */; };
 		4DBD03002EECBBC700358681 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD02FF2EECBBC700358681 /* Category.swift */; };
@@ -56,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewModel.swift; sourceTree = "<group>"; };
+		4D8F1A032EEE172B000B36CF /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
+		4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroSettingsView.swift; sourceTree = "<group>"; };
 		4DBADA3F2EECD50E000C656B /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		4DBD02FD2EECBBA400358681 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4DBD02FF2EECBBC700358681 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -116,10 +120,10 @@
 		4DBD02FC2EECBB3000358681 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4DBD02FD2EECBBA400358681 /* Task.swift */,
 				4DBD02FF2EECBBC700358681 /* Category.swift */,
 				4DBD03012EECBBD800358681 /* Note.swift */,
 				4DBD03032EECBBF600358681 /* PomodoroSession.swift */,
+				4DBD02FD2EECBBA400358681 /* Task.swift */,
 				4DBD03052EECC12500358681 /* TaskCategory.swift */,
 			);
 			path = Models;
@@ -128,8 +132,8 @@
 		4DBD03092EECC1C300358681 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				4DBD030B2EECC1F800358681 /* TaskViewModel.swift */,
 				4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */,
+				4DBD030B2EECC1F800358681 /* TaskViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -137,20 +141,22 @@
 		4DBD030A2EECC1CD00358681 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4DBD030D2EECC33000358681 /* TaskListView.swift */,
-				4DBD030F2EECC38D00358681 /* CategoryFilterView.swift */,
-				4DBD03112EECC3D200358681 /* CategoryChip.swift */,
-				4DBD03132EECC41600358681 /* TaskRowView.swift */,
-				4DBD03152EECC45B00358681 /* EmptyStateView.swift */,
+				4DBD47B42EEDCF2A00652DCD /* AddCategoryView.swift */,
 				4DBD03172EECC49900358681 /* AddTaskView.swift */,
 				4DBD03192EECC4FD00358681 /* CategoryButton.swift */,
-				4DBADA3F2EECD50E000C656B /* EditTaskView.swift */,
-				4DBD47B02EEDCE9D00652DCD /* CategoryManagementView.swift */,
+				4DBD03112EECC3D200358681 /* CategoryChip.swift */,
+				4DBD030F2EECC38D00358681 /* CategoryFilterView.swift */,
 				4DBD47B22EEDCEE900652DCD /* CategoryManagementRow.swift */,
-				4DBD47B42EEDCF2A00652DCD /* AddCategoryView.swift */,
-				4DBD47B62EEDCF9B00652DCD /* EditCategoryView.swift */,
+				4DBD47B02EEDCE9D00652DCD /* CategoryManagementView.swift */,
 				4DBD47B82EEDD03E00652DCD /* ColorCircle.swift */,
+				4DBD47B62EEDCF9B00652DCD /* EditCategoryView.swift */,
+				4DBADA3F2EECD50E000C656B /* EditTaskView.swift */,
+				4DBD03152EECC45B00358681 /* EmptyStateView.swift */,
 				4DBD47BA2EEDD08B00652DCD /* IconButton.swift */,
+				4D8F1A032EEE172B000B36CF /* PomodoroView.swift */,
+				4DBD030D2EECC33000358681 /* TaskListView.swift */,
+				4DBD03132EECC41600358681 /* TaskRowView.swift */,
+				4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,13 +184,13 @@
 		4DC057452EECB6D40042ACB2 /* FocusFlow */ = {
 			isa = PBXGroup;
 			children = (
-				4DBD030A2EECC1CD00358681 /* Views */,
-				4DBD03092EECC1C300358681 /* ViewModels */,
-				4DBD02FC2EECBB3000358681 /* Models */,
-				4DC057462EECB6D40042ACB2 /* FocusFlowApp.swift */,
-				4DC057482EECB6D40042ACB2 /* ContentView.swift */,
 				4DC0574A2EECB6D50042ACB2 /* Assets.xcassets */,
+				4DC057482EECB6D40042ACB2 /* ContentView.swift */,
+				4DC057462EECB6D40042ACB2 /* FocusFlowApp.swift */,
+				4DBD02FC2EECBB3000358681 /* Models */,
 				4DC0574C2EECB6D50042ACB2 /* Preview Content */,
+				4DBD03092EECC1C300358681 /* ViewModels */,
+				4DBD030A2EECC1CD00358681 /* Views */,
 			);
 			path = FocusFlow;
 			sourceTree = "<group>";
@@ -355,10 +361,12 @@
 				4DBD030E2EECC33000358681 /* TaskListView.swift in Sources */,
 				4DBD47BB2EEDD08B00652DCD /* IconButton.swift in Sources */,
 				4DBD03062EECC12500358681 /* TaskCategory.swift in Sources */,
+				4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */,
 				4DBD031A2EECC4FD00358681 /* CategoryButton.swift in Sources */,
 				4DBD03162EECC45B00358681 /* EmptyStateView.swift in Sources */,
 				4DC057492EECB6D40042ACB2 /* ContentView.swift in Sources */,
 				4DBD02FE2EECBBA400358681 /* Task.swift in Sources */,
+				4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */,
 				4DBD03122EECC3D200358681 /* CategoryChip.swift in Sources */,
 				4DBD47B92EEDD03E00652DCD /* ColorCircle.swift in Sources */,
 				4DBD030C2EECC1F800358681 /* TaskViewModel.swift in Sources */,
