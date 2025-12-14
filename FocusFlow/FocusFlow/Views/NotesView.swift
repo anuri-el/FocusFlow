@@ -65,10 +65,10 @@ struct NotesView: View {
                 }
             }
             .sheet(isPresented: $showingAddNote) {
-//                AddNoteView(viewModel: viewModel, folderId: selectedFolder?.id)
+                AddNoteView(viewModel: viewModel, folderId: selectedFolder?.id)
             }
             .sheet(item: $noteToEdit) { note in
-//                EditNoteView(viewModel: viewModel, note: note)
+                EditNoteView(viewModel: viewModel, note: note)
             }
             .sheet(isPresented: $showingFolders) {
 //                FolderManagementView(viewModel: viewModel)
