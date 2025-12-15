@@ -17,6 +17,18 @@
 		4D8F1A022EEE1255000B36CF /* PomodoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */; };
 		4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A032EEE172B000B36CF /* PomodoroView.swift */; };
 		4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */; };
+		4D949F1A2EF01B900094D33C /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F192EF01B900094D33C /* AnalyticsView.swift */; };
+		4D949F1C2EF01C400094D33C /* PeriodPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F1B2EF01C400094D33C /* PeriodPicker.swift */; };
+		4D949F1E2EF01C770094D33C /* OverallStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F1D2EF01C770094D33C /* OverallStatsView.swift */; };
+		4D949F202EF01CC50094D33C /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F1F2EF01CC50094D33C /* StatCard.swift */; };
+		4D949F222EF01D070094D33C /* CategoryStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F212EF01D070094D33C /* CategoryStatsView.swift */; };
+		4D949F242EF01D430094D33C /* CategoryStatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F232EF01D430094D33C /* CategoryStatRow.swift */; };
+		4D949F262EF01D970094D33C /* TimeSpentChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F252EF01D970094D33C /* TimeSpentChartView.swift */; };
+		4D949F282EF01DDB0094D33C /* CategoryTimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F272EF01DDB0094D33C /* CategoryTimeData.swift */; };
+		4D949F2A2EF01E060094D33C /* ProductivityChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F292EF01E060094D33C /* ProductivityChartView.swift */; };
+		4D949F2C2EF01EDE0094D33C /* PomodoroStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F2B2EF01EDE0094D33C /* PomodoroStatsView.swift */; };
+		4D949F2E2EF01F0C0094D33C /* PomodoroStatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F2D2EF01F0C0094D33C /* PomodoroStatCard.swift */; };
+		4D949F302EF01F4A0094D33C /* NotesStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949F2F2EF01F4A0094D33C /* NotesStatsView.swift */; };
 		4D9B70D82EEEE3CE00ED4280 /* NoteFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70D72EEEE3CE00ED4280 /* NoteFolder.swift */; };
 		4D9B70DA2EEEE68C00ED4280 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70D92EEEE68C00ED4280 /* NoteViewModel.swift */; };
 		4D9B70DC2EEEF4EA00ED4280 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B70DB2EEEF4EA00ED4280 /* NotesView.swift */; };
@@ -82,6 +94,18 @@
 		4D8F1A012EEE1255000B36CF /* PomodoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewModel.swift; sourceTree = "<group>"; };
 		4D8F1A032EEE172B000B36CF /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
 		4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroSettingsView.swift; sourceTree = "<group>"; };
+		4D949F192EF01B900094D33C /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		4D949F1B2EF01C400094D33C /* PeriodPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodPicker.swift; sourceTree = "<group>"; };
+		4D949F1D2EF01C770094D33C /* OverallStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallStatsView.swift; sourceTree = "<group>"; };
+		4D949F1F2EF01CC50094D33C /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		4D949F212EF01D070094D33C /* CategoryStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStatsView.swift; sourceTree = "<group>"; };
+		4D949F232EF01D430094D33C /* CategoryStatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStatRow.swift; sourceTree = "<group>"; };
+		4D949F252EF01D970094D33C /* TimeSpentChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSpentChartView.swift; sourceTree = "<group>"; };
+		4D949F272EF01DDB0094D33C /* CategoryTimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTimeData.swift; sourceTree = "<group>"; };
+		4D949F292EF01E060094D33C /* ProductivityChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityChartView.swift; sourceTree = "<group>"; };
+		4D949F2B2EF01EDE0094D33C /* PomodoroStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroStatsView.swift; sourceTree = "<group>"; };
+		4D949F2D2EF01F0C0094D33C /* PomodoroStatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroStatCard.swift; sourceTree = "<group>"; };
+		4D949F2F2EF01F4A0094D33C /* NotesStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesStatsView.swift; sourceTree = "<group>"; };
 		4D9B70D72EEEE3CE00ED4280 /* NoteFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFolder.swift; sourceTree = "<group>"; };
 		4D9B70D92EEEE68C00ED4280 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		4D9B70DB2EEEF4EA00ED4280 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
@@ -174,6 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				4DBD47B42EEDCF2A00652DCD /* AddCategoryView.swift */,
+				4D7358F62EEF2B6C00FD6FBC /* AddNoteFolderView.swift */,
+				4D7358EC2EEF287100FD6FBC /* AddNoteView.swift */,
 				4DBD03172EECC49900358681 /* AddTaskView.swift */,
 				4DBD03192EECC4FD00358681 /* CategoryButton.swift */,
 				4DBD03112EECC3D200358681 /* CategoryChip.swift */,
@@ -182,26 +208,36 @@
 				4DBD47B02EEDCE9D00652DCD /* CategoryManagementView.swift */,
 				4DBD47B82EEDD03E00652DCD /* ColorCircle.swift */,
 				4DBD47B62EEDCF9B00652DCD /* EditCategoryView.swift */,
+				4D7358F82EEF2BAA00FD6FBC /* EditNoteFolderView.swift */,
+				4D7358F02EEF291000FD6FBC /* EditNoteView.swift */,
 				4DBADA3F2EECD50E000C656B /* EditTaskView.swift */,
 				4DBD03152EECC45B00358681 /* EmptyStateView.swift */,
-				4DBD47BA2EEDD08B00652DCD /* IconButton.swift */,
-				4D8F1A032EEE172B000B36CF /* PomodoroView.swift */,
-				4DBD030D2EECC33000358681 /* TaskListView.swift */,
-				4DBD03132EECC41600358681 /* TaskRowView.swift */,
-				4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */,
-				4D9B70DB2EEEF4EA00ED4280 /* NotesView.swift */,
-				4D9B70DD2EEEF53B00ED4280 /* SearchBar.swift */,
-				4D9B70DF2EEEF56000ED4280 /* FolderScrollView.swift */,
-				4D9B70E12EEEF59100ED4280 /* FolderChip.swift */,
-				4D9B70E32EEEF5D600ED4280 /* NoteRowView.swift */,
 				4D9B70E52EEEF60300ED4280 /* File.swift */,
-				4D7358EC2EEF287100FD6FBC /* AddNoteView.swift */,
-				4D7358EE2EEF28B300FD6FBC /* TagView.swift */,
-				4D7358F02EEF291000FD6FBC /* EditNoteView.swift */,
+				4D9B70E12EEEF59100ED4280 /* FolderChip.swift */,
+				4D9B70DF2EEEF56000ED4280 /* FolderScrollView.swift */,
+				4DBD47BA2EEDD08B00652DCD /* IconButton.swift */,
 				4D7358F22EEF2AF100FD6FBC /* NoteFolderManagementView.swift */,
 				4D7358F42EEF2B1F00FD6FBC /* NoteFolderRow.swift */,
-				4D7358F62EEF2B6C00FD6FBC /* AddNoteFolderView.swift */,
-				4D7358F82EEF2BAA00FD6FBC /* EditNoteFolderView.swift */,
+				4D9B70E32EEEF5D600ED4280 /* NoteRowView.swift */,
+				4D9B70DB2EEEF4EA00ED4280 /* NotesView.swift */,
+				4D8F1A052EEE1981000B36CF /* PomodoroSettingsView.swift */,
+				4D8F1A032EEE172B000B36CF /* PomodoroView.swift */,
+				4D9B70DD2EEEF53B00ED4280 /* SearchBar.swift */,
+				4D7358EE2EEF28B300FD6FBC /* TagView.swift */,
+				4DBD030D2EECC33000358681 /* TaskListView.swift */,
+				4DBD03132EECC41600358681 /* TaskRowView.swift */,
+				4D949F192EF01B900094D33C /* AnalyticsView.swift */,
+				4D949F1B2EF01C400094D33C /* PeriodPicker.swift */,
+				4D949F1D2EF01C770094D33C /* OverallStatsView.swift */,
+				4D949F1F2EF01CC50094D33C /* StatCard.swift */,
+				4D949F212EF01D070094D33C /* CategoryStatsView.swift */,
+				4D949F232EF01D430094D33C /* CategoryStatRow.swift */,
+				4D949F252EF01D970094D33C /* TimeSpentChartView.swift */,
+				4D949F272EF01DDB0094D33C /* CategoryTimeData.swift */,
+				4D949F292EF01E060094D33C /* ProductivityChartView.swift */,
+				4D949F2B2EF01EDE0094D33C /* PomodoroStatsView.swift */,
+				4D949F2D2EF01F0C0094D33C /* PomodoroStatCard.swift */,
+				4D949F2F2EF01F4A0094D33C /* NotesStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -396,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBD03022EECBBD800358681 /* Note.swift in Sources */,
+				4D949F2E2EF01F0C0094D33C /* PomodoroStatCard.swift in Sources */,
 				4DBADA402EECD50E000C656B /* EditTaskView.swift in Sources */,
 				4DBD03182EECC49900358681 /* AddTaskView.swift in Sources */,
 				4DBD47B12EEDCE9D00652DCD /* CategoryManagementView.swift in Sources */,
@@ -403,23 +440,33 @@
 				4DBD03042EECBBF600358681 /* PomodoroSession.swift in Sources */,
 				4D7358F92EEF2BAA00FD6FBC /* EditNoteFolderView.swift in Sources */,
 				4DBD47B52EEDCF2A00652DCD /* AddCategoryView.swift in Sources */,
+				4D949F282EF01DDB0094D33C /* CategoryTimeData.swift in Sources */,
 				4D8F1A022EEE1255000B36CF /* PomodoroViewModel.swift in Sources */,
+				4D949F2A2EF01E060094D33C /* ProductivityChartView.swift in Sources */,
 				4DBD03102EECC38D00358681 /* CategoryFilterView.swift in Sources */,
 				4DBD030E2EECC33000358681 /* TaskListView.swift in Sources */,
 				4DBD47BB2EEDD08B00652DCD /* IconButton.swift in Sources */,
 				4D7358EF2EEF28B300FD6FBC /* TagView.swift in Sources */,
+				4D949F262EF01D970094D33C /* TimeSpentChartView.swift in Sources */,
 				4DBD03062EECC12500358681 /* TaskCategory.swift in Sources */,
+				4D949F302EF01F4A0094D33C /* NotesStatsView.swift in Sources */,
+				4D949F1C2EF01C400094D33C /* PeriodPicker.swift in Sources */,
+				4D949F1A2EF01B900094D33C /* AnalyticsView.swift in Sources */,
+				4D949F2C2EF01EDE0094D33C /* PomodoroStatsView.swift in Sources */,
 				4D8F1A062EEE1981000B36CF /* PomodoroSettingsView.swift in Sources */,
 				4DBD031A2EECC4FD00358681 /* CategoryButton.swift in Sources */,
 				4D9B70E22EEEF59100ED4280 /* FolderChip.swift in Sources */,
 				4DBD03162EECC45B00358681 /* EmptyStateView.swift in Sources */,
 				4D9B70DC2EEEF4EA00ED4280 /* NotesView.swift in Sources */,
 				4D7358F52EEF2B1F00FD6FBC /* NoteFolderRow.swift in Sources */,
+				4D949F222EF01D070094D33C /* CategoryStatsView.swift in Sources */,
 				4DC057492EECB6D40042ACB2 /* ContentView.swift in Sources */,
 				4DBD02FE2EECBBA400358681 /* Task.swift in Sources */,
 				4D8F1A042EEE172B000B36CF /* PomodoroView.swift in Sources */,
+				4D949F242EF01D430094D33C /* CategoryStatRow.swift in Sources */,
 				4D7358F32EEF2AF100FD6FBC /* NoteFolderManagementView.swift in Sources */,
 				4D9B70DE2EEEF53B00ED4280 /* SearchBar.swift in Sources */,
+				4D949F202EF01CC50094D33C /* StatCard.swift in Sources */,
 				4D9B70E02EEEF56000ED4280 /* FolderScrollView.swift in Sources */,
 				4D9B70E42EEEF5D600ED4280 /* NoteRowView.swift in Sources */,
 				4DBD03122EECC3D200358681 /* CategoryChip.swift in Sources */,
@@ -432,6 +479,7 @@
 				4D9B70D82EEEE3CE00ED4280 /* NoteFolder.swift in Sources */,
 				4DBD47B72EEDCF9B00652DCD /* EditCategoryView.swift in Sources */,
 				4DBD03142EECC41600358681 /* TaskRowView.swift in Sources */,
+				4D949F1E2EF01C770094D33C /* OverallStatsView.swift in Sources */,
 				4DBD03002EECBBC700358681 /* Category.swift in Sources */,
 				4D9B70E62EEEF60300ED4280 /* File.swift in Sources */,
 				4DBD47B32EEDCEE900652DCD /* CategoryManagementRow.swift in Sources */,

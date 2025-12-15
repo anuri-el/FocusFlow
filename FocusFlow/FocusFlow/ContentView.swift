@@ -19,8 +19,8 @@ struct ContentView: View {
                 }
                 .tag(1)
             
-            // Аналітика (поки що заглушка)
-            Text("Аналітика")
+            // Аналітика
+            AnalyticsView()
                 .tabItem {
                     Label("Аналітика", systemImage: "chart.bar")
                 }
